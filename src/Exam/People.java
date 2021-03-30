@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class People {
     public static void main(String[] args) {
             Box3 box3 = new Box3();
+            Box5 box5 = new Box5();
             Scanner scan = new Scanner(System.in);
             System.out.println("give me the box's length");
             int length = Integer.parseInt(scan.next());
