@@ -1,5 +1,6 @@
 package Exam;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class People {
@@ -14,6 +15,12 @@ public class People {
             System.out.println("give me the box's height");
             int height = Integer.parseInt(scan.next());
             System.out.println("length: " + length + ", width: " + width + ", height: " + height);
+            if(box3.validate(length ,height ,width)){
+                System.out.println(box3.getName());
+            }
+            else {
+                System.out.println(box5.getName());
+            }
         }
 
     }

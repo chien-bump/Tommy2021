@@ -7,6 +7,7 @@ public abstract class Student {
     int math;
 
     public Student() {
+
         super();
     }
 
