@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="car.CarDemo">
+  <grid id="27dc6" binding="Mainpanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="52" y="63" width="372" height="270"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+    </properties>
+    <border type="none" title-justification="2" title-position="5">
+      <font/>
+      <title-color color="-4473925"/>
+    </border>
+    <children/>
+  </grid>
+</form>
